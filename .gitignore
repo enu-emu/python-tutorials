@@ -1,0 +1,30 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files you don't want to upload
+*.csv
+*.tsv
+*.log
+*.db
+*.sqlite
+*.json
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore other backups or temporary files
+*.swp
+*.swo
